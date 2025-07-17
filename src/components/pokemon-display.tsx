@@ -14,7 +14,7 @@ const PokemonDisplay = ({ pokemon, isLoading, gameState }: Props) => {
   const imageUrl = pokemon?.image;
   const name = pokemon?.name;
 
-  console.log(name); // Debugging line to check the
+  console.log(name); // Debugging line to check the Pokémon name
 
   return (
     <div className="card">
